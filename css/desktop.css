@@ -1,0 +1,163 @@
+@media (min-width: 768px) {
+  .break-on-desktop {
+    display: block;
+  }
+
+  .footer-fine-print {
+    font-size: 9px;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  /* Layout */
+  .wrapper-large {
+    max-width: var(--container-lg-width);
+    margin-inline: auto;
+  }
+
+  .wrapper-1500 {
+    max-width: var(--container-1500);
+    margin-inline: auto;
+  }
+
+  .wrapper {
+    max-width: var(--container-width);
+    margin-inline: auto;
+  }
+
+  .wrapper-sm {
+    max-width: var(--container-sm-width);
+    margin-inline: auto;
+  }
+
+  #main-footer::before {
+    content: url('../img/top-wave-border-desktop.svg');
+  }
+
+  .footer-upper-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-menus {
+    order: 2;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .footer-logo-wrapper {
+    order: 1;
+  }
+
+  .mobile-footer-divider {
+    display: none;
+  }
+
+  .footer-menu-wrapper {
+    text-align: start;
+    margin-bottom: 0;
+  }
+
+  .navbar-wrapper {
+    height: 115px;
+  }
+
+  .bodynavfixedtop {
+    height: 115px;
+  }
+
+  .navbar-brand img {
+      max-width: 177px;
+  }
+
+  .navbar-nav {
+    gap: 1rem;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  #explore-link {
+    margin-right: auto;
+    position: static;
+  }
+
+  .navbar-collapse {
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+    position: static;
+  }
+
+  .nav-link {
+    color: var(--ap-white);
+    font-size: 30px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--ap-med-yellow);
+  }
+
+  .navbar-nav #explore-link .dropdown-menu {
+    position: absolute !important;
+    inset: 0px 0px auto 0px;
+    margin: 0px;
+    transform: translate(0px, 115px) !important;
+    width: 100%;
+    padding: 6rem 2rem 2rem;
+    z-index: 1;
+    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.20);
+  }
+  
+  .nav-item.dropdown:hover>.dropdown-menu,
+  .nav-item.dropdown:focus>.dropdown-menu {
+    display: block;
+  }
+
+  .nav-item.dropdown>.nav-link.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+  .dropdown-menu-innerwrapper {
+    padding: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1050px;
+    margin-inline: auto;
+    gap: 1rem;
+  }
+
+  .menu-prod-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: var(--ap-lt-yellow);
+    border-radius: 40px;
+    padding: 1rem;
+    aspect-ratio: 1; 
+    box-shadow: 0px 5px 5px 1px rgba(0,0,0,0);
+    transition: all .3s ease;
+  }
+
+  .menu-prod-card:hover,
+  .menu-prod-card:focus { 
+    box-shadow: 0px 10px 10px 4px rgba(0,0,0,0.15);
+  }
+
+  .menu-prod-card > * {
+    flex-shrink: 1;
+  }
+
+  .prod-card-img-wrapper {
+    background-color: unset;
+    max-width: unset;
+    border-radius: unset;
+    padding: unset;
+  }
+}
