@@ -106,6 +106,79 @@
     white-space: nowrap;
 }
 
+/* Page Styles */
+
+.header-banner-text {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+}
+
+.section-text {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+/* General Styles */
+.video-play-icon {
+    display: block;
+    width: 100%;
+    max-width: 95px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-backdrop {
+    --mdb-backdrop-bg: #fff;
+    --mdb-backdrop-opacity: 0.8;
+}
+
+.modal-dialog {
+    width: 90% !important;
+    max-width: 1200px !important;
+    margin-inline: auto;
+}
+
+.modal-content {
+    --mdb-modal-box-shadow: none;
+    border: 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.btn-close {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: .25rem;
+  background: transparent;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.close-btn {
+    display: block;
+    width: 100%;
+}
+
 /* Global Footer Styles */
 
 #main-footer {

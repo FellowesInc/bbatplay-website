@@ -160,4 +160,34 @@
     border-radius: unset;
     padding: unset;
   }
+
+  /* Page Styles */
+
+  .hero-section-img {
+      height: 750px;
+      -o-object-fit: cover;
+         object-fit: cover;
+  }
+
+  .header-banner-text {
+    bottom: 2rem;
+  }
+
+  .section-text {
+    font-size: 20px;
+  }
+
+  /* General Styles */
+  .video-play-icon {
+      max-width: 160px;
+  }
+
+  .modal-body {
+    border-radius: 40px;
+  }
+
+  .btn-close {
+    width: 2rem;
+    height: 2rem;
+  }
 }

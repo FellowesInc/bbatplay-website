@@ -139,19 +139,22 @@ body {
 h1,
 h2 {
   font-family: var(--luckiest-guy-font-family);
-  font-size: var(--ap-fs-700);
+  font-size: var(--ap-fs-775);
   line-height: 1.4;
   margin-bottom: 1rem;
 }
 
 h3 {
   font-size: var(--ap-fs-350);
+  font-family: var(--luckiest-guy-font-family);
+  line-height: 1.4;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 992px) {
   h1,
   h2 {
-    font-size: var(--ap-fs-908);
+    font-size: var(--ap-fs-910);
     line-height: 1.1;
   }
 
@@ -162,6 +165,14 @@ h3 {
 
 .link-underlined {
     position: relative;
+    font-family: var(--lilita-font-family);
+    font-size: 1rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 
 .link-underlined::after {
@@ -169,17 +180,43 @@ h3 {
     display: block;
     position: absolute;
     height: 2px;
-    background-color: var(--ap-med-blue);
-    width: 35px;
+    background-color: var(--ap-yellow);
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
     margin-left: 0;
     border: none;
-    top: 30px;
+    bottom: -5px;
 }
 
-.last-section-item .link-underlined::after {
-    top: auto;
+.link-underlined-white {
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+.link-underlined-white::after {
+    background-color: var(--ap-med-yellow);
+}
+
+.link-underlined-blue {
+  color: var(--ap-blue);
+  transition: all .3s ease-in-out;
+}
+
+.link-underlined-blue:hover,
+.link-underlined-blue:focus {
+  color: var(--ap-yellow);
+}
+
+.link-underlined-white:hover,
+.link-underlined-white:focus {
+  color: var(--ap-lt-yellow);
+}
+
+@media (min-width: 992px) {
+  .link-underlined {
+    font-size: 20px;
+  }
 }
 
 .fw-100 {
@@ -308,6 +345,34 @@ h3 {
   background-color: var(--ap-blue);
 }
 
+.ap-color-blue {
+  color: var(--ap-blue);
+}
+
+.ap-bg-green {
+  background-color: var(--ap-green);
+}
+
+.ap-color-green {
+  color: var(--ap-green);
+}
+
+.ap-bg-red {
+  background-color: var(--ap-red);
+}
+
+.ap-color-red {
+  color: var(--ap-red);
+}
+
+.ap-bg-yellow {
+  background-color: var(--ap-yellow);
+}
+
+.ap-color-yellow {
+  color: var(--ap-yellow);
+}
+
 /* Buttons */
 
 .ap-btn {
@@ -395,4 +460,8 @@ h3 {
 .video-wrapper video.hide {
   opacity: 0;
   z-index: -1;
+}
+
+.popup-video { 
+  box-shadow: 0px 13px 16px 0px rgba(0,0,0,0.25);
 }
