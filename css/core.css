@@ -327,6 +327,16 @@ h3 {
   margin-inline: auto;
 }
 
+.mh-700 {
+  min-height: 600px;
+}
+
+@media (min-width: 992px) {
+  .mh-700 {
+    min-height: 700px;
+  }
+}
+
 /* Helper Classes */
 
 .zindex-10 {
