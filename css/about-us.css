@@ -1,0 +1,174 @@
+.hero-section-img {
+    height: 240px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.mission-card{
+  background: var(--ap-blue);
+  color:#fff;
+  border-radius: 20px;
+  padding: 50px 40px;
+  height: 100%;
+  min-height: 300px;
+}
+
+.mission-card p{
+  font-size: 15px;
+  font-family: var(--luckiest-guy-font-family);
+  text-transform: uppercase;
+}
+
+.wavy-column {
+  overflow: hidden;
+}
+
+.wavy-column-content {
+    padding: 50px 45px 50px;
+}
+
+.wavy-setction-text {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.wave-svg-wrapper {
+  margin-bottom: -1px;
+  width: calc(100% + 2px);
+  margin-inline: auto;
+}
+
+.st0 {
+  fill: var(--ap-green);
+}
+
+.st1 {
+  fill: var(--ap-yellow);
+}
+
+.st2 {
+  fill: var(--ap-blue);
+}
+
+.our-prod-img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.our-prod-text {
+    font-weight: 600;
+    max-width: 280px;
+    margin-inline: auto;
+}
+
+.pillar-item {
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+}
+
+.pillar-icon {
+    display: block;
+    width: 100%;
+    max-width: 116px;
+    margin-inline: auto;
+}
+
+.pillars-grid {
+    display: grid;
+    gap: .75rem;
+}
+
+.pillar-s-text {
+  font-weight: 600;
+}
+
+@media (min-width: 992px) {
+  .hero-section-img {
+      height: 580px;
+  }
+
+  .mission-card{
+    min-height: 520px;
+    border-radius: 40px;
+    padding: 100px 20px;
+  }
+
+  .mission-card p{
+    font-size: 25px;
+    max-width: 400px;
+    margin-inline: auto;
+  }
+
+  .wavy-column {
+    position: relative;
+  }
+
+  .wavy-column-content {
+    height: 100%;
+    padding: 100px 1rem 90px;
+  }
+
+  .wavy-setction-text {
+    font-size: 21px;
+    max-width: 365px;
+    margin-inline: auto;
+  }
+
+  .our-prod-img {
+    border-radius: 40px;
+    margin-bottom: 2rem;
+  }
+
+  .our-prod-text {
+      font-size: 21px;
+      max-width: 410px;
+  }
+
+  .pillar-item {
+    padding: 3rem;
+    border-radius: 40px;
+  }
+
+  .pillar-icon {
+      max-width: 246px;
+  }
+
+  .pillars-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+  }
+
+  .pillar-s-text {
+    font-size: 21px;
+    max-width: 375px;
+    margin-inline: auto;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .three-col-wavy-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .wavy-column-content {
+    padding: 100px 1rem 175px;
+  }
+
+  .wave-svg-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .st0,
+  .st1 {
+    fill: var(--ap-blue);
+  }
+
+}

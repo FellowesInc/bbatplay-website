@@ -383,6 +383,22 @@ h3 {
   color: var(--ap-yellow);
 }
 
+.ap-bg-med-yellow {
+  background-color: var(--ap-med-yellow);
+}
+
+.ap-color-med-yellow {
+  color: var(--ap-med-yellow);
+}
+
+.ap-bg-lt-yellow {
+  background-color: var(--ap-lt-yellow);
+}
+
+.ap-color-lt-yellow {
+  color: var(--ap-lt-yellow);
+}
+
 /* Buttons */
 
 .ap-btn {
