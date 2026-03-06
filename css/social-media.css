@@ -1,3 +1,9 @@
+.hero-section-img {
+    height: 240px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 .social-insta-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,6 +41,10 @@
 }
 
 @media (min-width: 992px) {
+  .hero-section-img {
+      height: 580px;
+  }
+  
   .social-insta-grid {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
