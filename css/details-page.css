@@ -1,12 +1,20 @@
+body {
+  color: var(--ap-grey-600);
+}
+
 .contact-cta-text {
   font-size: var(--ap-fs-725);
 }
 
+.product-details h3 {
+    color: var(--ap-blue);
+}
+
 .product-details-tabination .nav-link {
-  background-color: var(--ap-grey-200);
+  background-color: var(--ap-lt-yellow);
   font-size: var(--ap-fs-600);
   font-weight: 600;
-  color: var(--ap-grey-700);
+  color: var(--ap-blue);
   padding: 0.75rem 3.125rem;
   border-radius: 0rem;
   text-transform: capitalize;
@@ -22,12 +30,12 @@
 .nav-tabs .nav-link.active {
   border: 0.063rem solid var(--ap-white);
   background-color: var(--ap-white);
-  color: var(--ap-black);
+  color: var(--ap-red);
 }
 
 .nav-tabs .nav-link.active::after {
   width: 2.5rem;
-  background: #fdb913;
+  background: var(--ap-med-yellow);
   height: 0.125rem;
   content: '';
   margin-top: 0.438rem;
@@ -71,7 +79,7 @@
 }
 
 .pdf-text a {
-  color: var(--ap-black);
+  color: var(--ap-grey-600);
   text-decoration: underline;
 }
 
@@ -107,7 +115,7 @@
 }
 
 .review-tag {
-  color: var(--ap-black);
+  color: var(--ap-grey-600);
   padding-right: 0.313rem;
 }
 
@@ -123,12 +131,12 @@
 .product-star-box p {
   margin-bottom: 0.313rem;
   font-weight: 600;
-  color: var(--ap-black);
+  color: var(--ap-grey-600);
 }
 
 .grey-product-review-box {
   padding: 2.312rem 3.125rem;
-  background-color: var(--ap-grey-200);
+  background-color: var(--ap-lt-yellow);
 }
 
 .response-box {
@@ -143,7 +151,7 @@
 }
 
 .review-feedback-btn {
-  border: 0.063rem solid var(--ap-grey-200);
+  border: 0.063rem solid var(--ap-lt-yellow);
   font-size: var(--ap-fs-325);
   border-radius: 0.313rem;
 }
@@ -161,7 +169,7 @@
 }
 
 .product-detail-list ul li {
-  color: var(--ap-black);
+  color: var(--ap-grey-600);
   padding-bottom: 0.625rem;
 }
 
@@ -199,7 +207,7 @@
 .product-size-btn {
   font-size: var(--ap-fs-325);
   padding: var(--ap-fs-100);
-  color: var(--ap-black);
+  color: var(--ap-grey-600);
   border: 1px solid #97989c;
 }
 
@@ -225,7 +233,7 @@
 }
 
 .colors-selected .selected-color.btn-floating:after {
-  border: 1px solid var(--ap-yellow);
+  border: 1px solid var(--ap-med-yellow);
   content: '';
   width: 35px;
   height: 35px;
@@ -238,7 +246,7 @@
 }
 
 .active.product-size-btn {
-  border-color: var(--ap-yellow);
+  border-color: var(--ap-med-yellow);
 }
 
 .breadcrumb-item + .breadcrumb-item {
@@ -252,7 +260,7 @@
 }
 
 .text-primary {
-  color: var(--ap-yellow) !important;
+  color: var(--ap-med-yellow) !important;
 }
 
 .given-review-details {
@@ -299,7 +307,7 @@ ul#ex1 {
 }
 
 .text-yellow {
-  color: var(--ap-yellow);
+  color: var(--ap-med-yellow);
 }
 
 #carouselExampleIndicators .carousel-indicators {
@@ -310,7 +318,7 @@ ul#ex1 {
 }
 
 .bg-grey {
-  background-color: var(--ap-grey-200);
+  background-color: var(--ap-lt-yellow);
 }
 
 .pdf-icon img {
@@ -346,7 +354,7 @@ ul#ex1 {
 
 .text-line-after::after {
   width: 2.5rem;
-  background: #fdb913;
+  background: var(--ap-med-yellow);
   height: 0.125rem;
   content: '';
   margin-top: 0.438rem;
@@ -638,7 +646,7 @@ ul#ex1 {
 }
 
 .sg-header {
-  background-color: var(--ap-grey-200);
+  background-color: var(--ap-lt-yellow);
   display: flex;
   justify-content: space-between;
   padding: 1.125rem;
@@ -671,7 +679,7 @@ ul#ex1 {
 .sg-yellow-link::after {
   content: '';
   height: 2px;
-  background-color: var(--ap-yellow);
+  background-color: var(--ap-med-yellow);
   width: 30px;
   position: absolute;
   left: 0;

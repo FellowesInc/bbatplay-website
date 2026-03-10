@@ -351,6 +351,14 @@ h3 {
 
 /* Colors */
 
+.ap-bg-grey {
+  background-color: var(--ap-grey-600);
+}
+
+.ap-color-grey {
+  color: var(--ap-grey-600);
+}
+
 .ap-bg-blue {
   background-color: var(--ap-blue);
 }
