@@ -5,8 +5,8 @@ const mediaQuerymax992 = window.matchMedia('(max-width: 991.98px)');
 
 if (mediaQuerymax992.matches) {
   // Keep Products Dropdown Open on Mobile
-  const productToggle = document.querySelector('#explore-link .dropdown-toggle');
-  const productMenu = document.querySelector('#explore-link .dropdown-menu');
+  const productToggle = document.querySelector('.nav-item.dropdown .dropdown-toggle');
+  const productMenu = document.querySelector('.nav-item.dropdown .dropdown-menu');
 
   if (productToggle && productMenu) {
 

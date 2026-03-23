@@ -63,13 +63,13 @@
     white-space: nowrap;
 }
 
-.navbar-nav #explore-link .dropdown-menu {
+.navbar-nav .nav-item.dropdown .dropdown-menu {
     position: relative;
     border-radius: 0;
     box-shadow: none;
 }
 
-.navbar-nav #explore-link .dropdown-toggle:after {
+.navbar-nav .nav-item.dropdown .dropdown-toggle:after {
   display: none;
 }
 
